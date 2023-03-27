@@ -1,0 +1,119 @@
+table,th,td  {
+    border: 1px solid grey;
+    border-radius: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  input[type=text],select{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=date]{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number]{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  body{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  div{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgba(0, 250, 57, 1), rgb(0, 200, 100,0));  
+    padding: 20px;
+  }
+  input[type=text]{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #btna{
+    width:15%;                                 
+    text-align: center;
+    background-color: #32CD32;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #btna:hover{
+    background-color: #00FF00;
+  }
+  #btns{
+    width:100%;                                  
+    text-align: center;
+    background-color: #32CD32;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #btns:hover{
+    background-color: #00FF00;
+  }
+  #btnr{
+    width:100%;                                  
+    text-align: center;
+    background-color: #32CD32;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #btnr:hover{
+    background-color: #00FF00;
+  }
+  #btnd{
+    width:15%;                                 
+    text-align: center;
+    background-color: #32CD32;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #btnd:hover{
+    background-color: #00FF00;
+  }
+  /* Quantity */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button{
+    display: none;
+  }
